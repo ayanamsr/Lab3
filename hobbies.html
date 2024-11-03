@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Flex container for hobbies */
+        .hobbies-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .hobby-item {
+            flex: 1 1 300px;
+            background-color: #ecf084;
+            padding: 1rem;
+            
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .hobby-item img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .hobby-item h3 {
+            color: #4e43ef;
+            margin-top: 1rem;
+        }
+
+        .hobby-item p {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo"></div>
+    </header>
+
+    <!-- Navigation Menu with Flexbox -->
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="biodata.html">Biodata</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="campus-life.html">Campus Life</a></li>
+        </ul>
+    </nav>
+
+    <main class="flex-container">
+        <section class="flex-item">
+        <h1>MY HOBBIES</h1>
+        <div class="hobbies-container">
+            <!-- Hobby 1: Reading Novels -->
+            <div class="hobby-item">
+                <img src="novel.jpeg" alt="Reading novels">
+                <h3>Reading Novels</h3>
+                <p>I enjoy immersing myself in different worlds and stories through novels. Reading is a great escape and fuels my imagination.</p>
+            </div>
+
+            <!-- Hobby 2: Photography -->
+            <div class="hobby-item">
+                <img src="iphone.jpeg" alt="Photography">
+                <h3>Photography</h3>
+                <p>Capturing moments and beauty through the lens is one of my passions. I love experimenting with lighting, angles, and perspectives.</p>
+            </div>
+
+            <!-- Hobby 3: Videography & Video Editing -->
+            <div class="hobby-item">
+                <img src="edit1.png" alt="Videography">
+                <h3>Videography & Video Editing</h3>
+                <p>Creating and editing videos allows me to bring stories to life. I enjoy the creative process of making each video unique and engaging.</p>
+            </div>
+
+            <!-- Hobby 4: Playing with Cats -->
+            <div class="hobby-item">
+                <img src="loki.jpg" alt="Playing with cats">
+                <h3>Playing with Cats</h3>
+                <p>Spending time with cats brings me so much joy. I have few at home, and this guy's name's Loki. Their playful and curious nature is always entertaining.</p>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Alyana Noorisham. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

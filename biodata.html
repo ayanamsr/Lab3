@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Biodata</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 2rem;
+            
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+            background-color: #ecf084;
+            text-align: left;
+        }
+
+        td img {
+            display: block;
+            margin: auto;
+            border-radius: 8px;
+        }
+
+        /* Header styling */
+        header {
+            position: relative; /* Set header to relative to position child elements */
+            background-image: url('logo.png'); /* Path to your logo */
+            background-size: cover; /* Makes sure the image covers the header */
+            background-position: center; /* Centers the image */
+            height: 150px; /* Adjust the height as needed */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Logo is the only element in the header -->
+    </header>
+
+    <!-- Navigation Menu with Flexbox -->
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="biodata.html">Biodata</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="campus-life.html">Campus Life</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content with Flexbox Container -->
+    <main class="flex-container">
+        <section class="flex-item">
+            <h1>MY BIODATA</h1> <!-- Title moved here -->
+            <table>
+                <tr>
+                    <td><b>Name</b></td>
+                    <td>Nuralyana Maisara</td>
+                    <td colspan="2"><img src="yana.jpg" style="width:160px;height:200px;" alt="Nuralyana Maisara's photo"></td>
+                </tr>
+                <tr>
+                    <td><b>Date of Birth</b></td>
+                    <td colspan="3">10 Nov 2003</td>
+                </tr>
+                <tr>
+                    <td><b>Religion</b></td>
+                    <td colspan="3">Islam</td>
+                </tr>
+                <tr>
+                    <td rowspan="4"><b>Address</b></td>
+                    <td><b>Street</b></td>
+                    <td colspan="2">No 38, Jalan Universiti 15</td>
+                </tr>
+                <tr>
+                    <td><b>Town</b></td>
+                    <td colspan="2">Parit Raja</td>
+                </tr>
+                <tr>
+                    <td><b>District</b></td>
+                    <td colspan="2">Batu Pahat</td>
+                </tr>
+                <tr>
+                    <td><b>State</b></td>
+                    <td colspan="2">Johor</td>
+                </tr>
+                <tr>
+                    <td rowspan="5"><b>Contact</b></td>
+                    <td><b>Mobile Phone</b></td>
+                    <td colspan="2">018-7814730</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"><b>Social Media</b></td>
+                    <td><b>Instagram</b></td>
+                    <td>__itsyanaaaa</td>
+                </tr>
+                <tr>
+                    <td><b>TikTok</b></td>
+                    <td>Sachiko</td>
+                </tr>
+                <tr>
+                    <td><b>Email</b></td>
+                    <td colspan="2">alyana03maisara@gmail.com</td>
+                </tr>
+                <tr>
+                    <td><b>Website</b></td>
+                    <td colspan="2"><a href="https://ayanamsr.github.io/Lab_2/biodata.html" target="_blank">ayanamsr.github.io/Lab_2/biodata.html</a></td>
+                </tr>
+                <tr>
+                    <td rowspan="3"><b>Course and Institution</b></td>
+                    <td><b>Course</b></td>
+                    <td colspan="2">FSKTM (BIP)</td>
+                </tr>
+                <tr>
+                    <td><b>Institution</b></td>
+                    <td colspan="2">UTHM</td>
+                </tr>
+                <tr>
+                    <td><b>Programming Skills</b></td>
+                    <td colspan="3">
+                        <ul>
+                            <li>HTML</li>
+                            <li>Java</li>
+                            <li>PHP</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Personal Interest</b></td>
+                    <td colspan="3">
+                        <ul>
+                            <li>Video Editing</li>
+                            <li>Playing with Cats</li>
+                            <li>Sleep</li>
+                            <li>Playing Games</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Future Plan in 2025</b></td>
+                    <td colspan="3">More Moneyy Yeayyyy</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nuralyana Noorisham. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
